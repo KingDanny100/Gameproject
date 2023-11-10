@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(97, 92, 92);
+}
+.App{
+    width: 80%;
+    margin: 10px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(1, 1, 19);
+    height: 90vh;
+    position: relative;
+    border-radius: 10px;
+    color: goldenrod;
+}
+.App > h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.App > p {
+    font-size: 20px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 200px;
+    padding: 10px 40px 20px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 45px;
+}
+section div{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+section p{
+    font-size: 15px;
+}
+input{
+    outline: none;
+    height: 20px;
+    width: 20%;
+    margin-top: -60px;
+}
+.message_para{
+    font-size: 20px;
+    margin: 20px auto;
+    position: absolute;
+    top: 60%;
+}
+.button_divs{
+    width: 40%;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
